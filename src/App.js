@@ -1,7 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import Contador from './componentes/Contador';
+import React from 'react';
+import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import Acciones from './componentes/Acciones';
+import Contador from './componentes/Contador';
+
 function App() {
   return (
     <div className="App">
