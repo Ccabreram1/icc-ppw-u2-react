@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.3.0",
+    "homepage": "https://Ccabreram1.github.io/icc-ppw-u2-react",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   }
 }
